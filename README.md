@@ -6,19 +6,17 @@
 
 Build a Windows Subsystem for Linux (WSL) distribution installer/launcher application.
 
----
 
 ## Install
 
 1. The latest version of WSL is available from the [Microsoft Store](https://apps.microsoft.com/store/detail/windows-subsystem-for-linux/9P9TQF7MRM4R)
 
-2. Download the .appx app and corresponding .cer cert from [releases/latest](releases/latest)
+2. Download the .appx app and corresponding .cer cert from [releases/latest](../../releases/latest)
 
 3. Import the self-signed .cer to `Trusted Publisher` and `Trusted Root Certificate Authority`
 
 4. Install the .appx app package
 
----
 
 ## Build
 
@@ -26,11 +24,10 @@ Build a Windows Subsystem for Linux (WSL) distribution installer/launcher applic
 
 2. Setup and build:
 
-	* Detailed notes: [build-notes](doc\build-notes.md) supplement the Microsoft [README](doc\readme_MS.md)
+	* Detailed notes: [build-notes](doc/build-notes.md) supplement the Microsoft [README](doc/readme_MS.md)
 
 	* Visual Studio isn't strictly required, but it was practically so in order to get the build tools setup and .vcxproj files corrected.
 
----
 
 ## Notes
 
@@ -38,7 +35,6 @@ Build a Windows Subsystem for Linux (WSL) distribution installer/launcher applic
 
 	> The attempted operation is not supported for the type of object referenced. Error code: Wsl/Service/0x8007273d
 
----
 
 ## To-do
 
@@ -46,7 +42,6 @@ Build a Windows Subsystem for Linux (WSL) distribution installer/launcher applic
 
 2. Eliminate ARM build targets if not needed (or figure out necessary tools)
 
----
 
 ## Credits
 

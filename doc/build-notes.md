@@ -1,8 +1,7 @@
 # Build Notes
 
----
-
 ## Toolset
+
 This was painful to figure out. The ArchWSL and ArchWSL-Appx projects require different compilers/SDK's but Visual Studio (or my lack of ability to use it) didn't give useful error messages and I got to a point where one said "Platform Toolset: Visual Studio 2022 (v143)" and the other said ""Platform Toolset: Visual Studio 2022 (v143) not installed".
 
 ### Visual Studio Installer
@@ -10,6 +9,7 @@ This was painful to figure out. The ArchWSL and ArchWSL-Appx projects require di
 The installer must be run as admin. If not run as admin, it runs but installs appear to proceed but fail silently.
 
 ###	Visual Studio Community 2022
+
 * ArchWSL
 	* workload: "Desktop development with C++"
         * MSVC v143 - VS 2022 C++ x64/x86 build tools
